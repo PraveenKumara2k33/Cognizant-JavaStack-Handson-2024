@@ -15,4 +15,5 @@ Give an alias name to age as 'age_in_years'.
 Sort the results based on the user id in descending order.
 
 Note: Age must be rounded to the nearest whole number. Use datediff().
-![alt text](image.png)
+
+![image alt](https://github.com/PraveenKumara2k33/Cognizant-JavaStack-Handson-2024/blob/afac1a7b2c141cd56f734326af7175fe08be4c84/Stage%201/SQL%20Programming/image-1.png)
