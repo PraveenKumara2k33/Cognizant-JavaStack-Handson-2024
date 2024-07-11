@@ -14,4 +14,4 @@ To streamline the process, write a SQL query to select the titles, authors, and 
 
 Sort the records based on the title in ascending order.
 
-![alt text](image.png)
+![image alt](https://github.com/PraveenKumara2k33/Cognizant-JavaStack-Handson-2024/blob/afac1a7b2c141cd56f734326af7175fe08be4c84/Stage%201/SQL%20Programming/image-1.png)
