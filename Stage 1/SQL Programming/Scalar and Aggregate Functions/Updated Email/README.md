@@ -27,4 +27,4 @@ C132                               Starc                    starc32@gmail.com
 C726                               Stokes                 stokes@hotmail.com   
 
 
-![alt text](image.png)
+![image alt](https://github.com/PraveenKumara2k33/Cognizant-JavaStack-Handson-2024/blob/afac1a7b2c141cd56f734326af7175fe08be4c84/Stage%201/SQL%20Programming/image-1.png)
