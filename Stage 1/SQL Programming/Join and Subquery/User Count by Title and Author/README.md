@@ -11,4 +11,4 @@ Write an SQL query that retrieves information about a book borrowed by a specifi
 Give an alias name for count of the users as user_count.
 
 (Note : Data is case sensitive.)
-![alt text](image.png)
+![image alt](https://github.com/PraveenKumara2k33/Cognizant-JavaStack-Handson-2024/blob/afac1a7b2c141cd56f734326af7175fe08be4c84/Stage%201/SQL%20Programming/image-1.png)
