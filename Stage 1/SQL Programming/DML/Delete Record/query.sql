@@ -1,0 +1,1 @@
+delete from BOOK where genre='Romance';
