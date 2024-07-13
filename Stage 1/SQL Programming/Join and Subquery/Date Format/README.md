@@ -1,5 +1,7 @@
 Date Format
+
 Description
+
 Objective:
 
 To work with joins and scalar functions.
