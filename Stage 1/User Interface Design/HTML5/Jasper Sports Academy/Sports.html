@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JASPER SPORTS ACADEMY</title>
+    <style>
+        *{
+            font-weight: bold;
+        }
+        body {
+            background-image: url("Jasper.jpeg");
+        }
+
+        h2 {
+            text-align: center;
+            color: #a2eb1b;
+        }
+        .title {
+            text-align: center;
+            background-color: #173b6bd2;
+        }
+        td {
+            background-color: #ffffff;
+            width: 50%;
+            padding: 7px;
+            border-radius: 5px;
+            border: 2px solid #34495E;
+            color: #34495E;
+        }
+        table {
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #enroll {
+            margin-left: 45%;
+            margin-right: auto;
+            background-color: #344956;
+            color: #ffffff;
+            padding: 7px;
+        }
+
+        input[type="email"], input[type="text"], input[type="number"], input[type="tel"] {
+            width: 97%;
+        }
+
+        select {
+            width: 99%;
+        }
+    </style>
+</head>
+<body>
+    <h2>JASPER SPORTS ACADEMY</h2>
+    <form>
+        <table>
+            <!-- Player Registration Details -->
+            <tr>
+                <td class="title">Player Registration Details</td>
+            </tr>
+            <tr>
+                <td>Date of Registration</td>
+                <td><input id="dateReg" type="date" required></td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input id="pname" type="text" pattern="[A-Za-z\s]+" required></td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input id="age" type="number" min="3" required></td>
+            </tr>
+            <tr>
+                <td>Sports Type</td>
+                <td>
+                    <input type="radio" id="indoor" name="sportsType" value="indoor" required>
+                    <label for="indoor">Indoor</label>
+                    <input type="radio" id="outdoor" name="sportsType" value="outdoor" required>
+                    <label for="outdoor">Outdoor</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="tel" id="phNumber" pattern="[6789][0-9]{9}" required></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" id="mail" required></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea id="address" rows="4" cols="50" placeholder="Enter your address" required></textarea></td>
+            </tr>
+            <tr>
+                <td>Number of Players</td>
+                <td>
+                    <select id="players">
+                        <option>--Select--</option>
+                        <option>Single</option>
+                        <option>Double</option>
+                        <option>Multiple</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td><input type="text" id="location"></td>
+            </tr>
+            <!-- Sports (with duration) & Sports Fee -->
+            <tr>
+                <td class="title">Sports (with duration)</td>
+                <td class="title">Sports Fee</td>
+            </tr>
+            <tr>
+                <td rowspan="4">
+                    <input type="checkbox" id="choice1" name="sports" value="Athletics (6 months)">
+                    <label for="choice1">Athletics (6 months)</label><br><br>
+                    <input type="checkbox" id="choice2" name="sports" value="Cricket (3 months)">
+                    <label for="choice2">Cricket (3 months)</label><br><br>
+                    <input type="checkbox" id="choice3" name="sports" value="Basket Ball (9 months)">
+                    <label for="choice3">Basket Ball (9 months)</label><br><br>
+                    <input type="checkbox" id="choice4" name="sports" value="Table Tennis (6 months)">
+                    <label for="choice4">Table Tennis (6 months)</label>
+                </td>
+                <td>Rs. 20000/-</td>
+            </tr>
+            <tr>
+                <td>Rs. 15000/-</td>
+            </tr>
+            <tr>
+                <td>Rs. 35000/-</td>
+            </tr>
+            <tr>
+                <td>Rs. 40000/-</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="dob">Birth Certificate (Jpeg/Pdf)</label>
+                    <input id="dob" type="file" accept="Jpeg/Pdf" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <a href="timing.html" id="schedule">Schedule</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Deposit</td>
+                <td><input type="range" id="deposit" min="10000" max="20000" required></td>
+            </tr>
+            <tr>
+                <td id="discountAmt" colspan="2" title="Only on registration for more than 6 months">
+                    *A discount of 15% will be applied on total amount on registering for more than 6 months
+                </td>
+            </tr>
+        </table><br/>
+        <input type="submit" id="enroll" value="ENROLL">
+    </form>
+</body>
+</html>
