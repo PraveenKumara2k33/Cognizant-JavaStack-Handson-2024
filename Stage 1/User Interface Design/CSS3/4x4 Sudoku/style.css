@@ -1,0 +1,85 @@
+/* Base styles */
+
+.heading {
+    background-color: #9f5919;
+    color: white;
+    font-size: 40px;
+    /* Fill code here */
+    float: left;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 25px;
+}
+
+.desc {
+    background-color: #65651d;
+    color: white;
+    font-size: 20px;
+    /* Fill code here */
+    border-radius: 6px;
+    padding: 10px;
+    margin: 25px;
+    clear: left;
+}
+
+img {
+    height: 40%;
+    width: 30%;
+    /* Fill code here */
+    border-radius: 50%;
+    margin-left: 250px;
+}
+
+img:hover {
+    /* Fill code here */
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.container {
+    /* Fill code here */
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+}
+
+.row {
+    /* Fill code here */
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: stretch;
+}
+
+.box {
+    /* Fill code here */
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b5651d;
+    border: 4px solid white;
+}
+
+.dark {
+    background-color: #9f5919;
+    color: white;
+    font-size: 30px;
+}
+
+.relative {
+    background-color: #bd9a7a;
+    /* Fill code here */
+    position: relative;
+    width: 1000px;
+    height: 800px;
+}
+
+.absolute {
+    /* Fill code here */
+    position: absolute;
+    top: 400px;
+    right: 0px;
+}

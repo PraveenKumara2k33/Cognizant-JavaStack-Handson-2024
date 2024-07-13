@@ -1,0 +1,120 @@
+/* Resetting to default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting up the chat container */
+.chat_container {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+/* This is the Chat header */
+.chat_header {
+    background-color: #075e54;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+
+}
+.chat_title{
+    font-weight: bold;
+    font-size: 20px;
+}
+/* This is the Chat body */
+.chat_body {
+    padding: 10px;
+}
+
+.message_text {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.message_incoming {
+    display: flex;
+    align-items: flex-start;
+}
+
+.message_outgoing {
+    display: flex;
+    align-items: flex-end;
+}
+
+.chat_body > .message_incoming {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.chat_body > .message_outgoing {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.message_incoming .message_text {
+    background-color: #e2ffc7;
+}
+
+.message_outgoing .message_text {
+    background-color: #dcf8c6;
+}
+
+.message_text + .message_timestamp {
+    font-size: 12px;
+    color: #777777;
+    margin-top: 4px;
+}
+
+/* This is the Chat footer */
+.chat_footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.message_input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+}
+
+.send_button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    background-color: #075e54;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+/* FILL the code for screens with maximum width as 600px - within this - */
+/* a. Styles attached to chat_container class and message_input class are given */
+/* b. Styles attached to chat_footer class and send_button are to added */
+@media (max-width: 600px) {
+    .chat_footer {
+        flex-direction: column;
+    }
+
+    .send_button {
+        align-self: center;
+    }
+
+    .chat_container {
+        max-width: 100%;
+        background-color: grey;
+    }
+
+    .message_input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
