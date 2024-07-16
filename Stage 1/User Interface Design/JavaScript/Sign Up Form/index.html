@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src='script.js'></script>
+    <style>
+        body {
+            background-color: whitesmoke;
+        }
+        table {
+            border: 2px solid #280341;
+            background-color: aliceblue;
+            width: 40%;
+            border-radius: 5px;
+            padding: 7px;
+            color: #280341;
+            font-family: Verdana;
+            margin: 80px auto 0 auto;
+        }
+        td {
+            padding: 5px;
+        }
+        #submit {
+            margin-left: 20%;
+            margin-top: 10px;
+            padding: 2px;
+            width: 60%;
+            background-color: pink;
+        }
+        th {
+            color: peru;
+            border: 2px dashed;
+            height: 10%;
+        }
+    </style>
+</head>
+<body>
+    <form name="f1" onsubmit="validate(); return false;">
+        <table>
+            <tr>
+                <th colspan="2">SIGN UP</th>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td>
+                    <input type="text" id="name"><br>
+                    <span id="namelocation" style="color:red"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="text" id="email"/><br>
+                    <span id="emaillocation" style="color:red"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password" id="password"/><br>
+                    <span id="passwordlocation" style="color:red"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Confirm Password</td>
+                <td><input type="password" id="confirm"/><br>
+                    <span id="confirmlocation" style="color:red"></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="SIGN UP" id="submit"/>
+                </td>
+            </tr>
+        </table>
+        <div id="result"></div>
+    </form>
+</body>
+</html>

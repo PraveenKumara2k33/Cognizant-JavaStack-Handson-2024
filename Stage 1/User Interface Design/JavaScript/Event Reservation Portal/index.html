@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style type="text/css">
+        body {
+            background-color: #deb965;
+            font-family: Arial;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-size: 20px;
+        }
+        #requestHeading {
+            color: #b23c44;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-size: xx-large;
+        }
+        #eventRegistration {
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            border: 5px double #000000;
+            background-color: #f9d6c3;
+        }
+        th, td {
+            padding: 10px;
+        }
+        input[type='text'], input[type='tel'], input[type='email'], input[type='date'], select {
+            border-radius: 5px;
+            padding: 4px;
+            width: 200px;
+        }
+        select {
+            width: 210px;
+        }
+        #btnSubmit, #btnReset {
+            background-color: #789b6a;
+            color: #ffffff;
+            border-radius: 5px;
+            padding: 5px;
+            font-size: 17px;
+            width: 100px;
+            margin-left: 20%;
+        }
+    </style>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <h1 id="requestHeading">Event Reservation Portal</h1>
+    <hr/>
+    <form onsubmit="return false">
+        <b>
+            <table id="eventRegistration">
+                <tr>
+                    <td><label>Event</label></td>
+                    <td>
+                        <select id="eventSelection" onchange="eventOnChange()" required>
+                            <option value="" hidden>--Select Event--</option>
+                            <option value="Conference">Conference</option>
+                            <option value="Workshop">Workshop</option>
+                            <option value="Seminar">Seminar</option>
+                            <option value="Webinar">Webinar</option>
+                            <!-- <option value="Others">Other Events</option> -->
+                        </select>
+                    </td>
+                </tr>
+                <tr id="ticketType">
+                    <td><label>Ticket Type</label></td>
+                    <td>
+                        <select id="ticket" required>
+                            <option value="" hidden>--Select--</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Register" id="btnSubmit" onclick="registerEvent()" /></td>
+                    <td><input type="reset" id="btnReset" value="Clear" onclick="clearValues()" /></td>
+                </tr>
+            </table>
+            <br/>
+            <div id="result"></div>
+        </b>
+    </form>
+</body>
+</html>

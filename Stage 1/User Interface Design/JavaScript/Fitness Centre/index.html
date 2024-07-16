@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="script.js"></script>
+    <title>Muscle Magic</title>
+    <style>
+        body{
+            margin-top: 50px;
+            font-weight: bold;
+            background-color: antiquewhite;
+        }
+        h2{
+            text-align: center;
+            background-color: #c6f4da;
+            height: 30px;
+        }
+        .table {
+            border: 4px double #280341;
+            background-color: #c6f4da;
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 5px;
+            padding: 9px;
+            text-align: left;
+        }
+        .btn {
+            color: #861221;
+            font-size: 15px;
+            font-weight: bold;
+            margin-left: 20%;
+        }
+    </style>
+</head>
+<body>
+    <h2>Muscle Magic</h2>
+    <form onsubmit="return display(); return false">
+        <table class="table">
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age</label></td>
+                <td><input type="number" id="age"></td>
+            </tr>
+            <tr>
+                <td><label for="height">Height (in cm)</label></td>
+                <td><input type="number" id="height"></td>
+            </tr>
+            <tr>
+                <td><label for="weight">Weight (in kg)</label></td>
+                <td><input type="number" id="weight"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" class="btn" value="Submit"></td>
+                <td><input type="reset" class="btn" value="Clear"></td>
+            </tr>
+        </table>
+        <br>
+        <div id="result"></div>
+    </form>
+</body>
+</html>
