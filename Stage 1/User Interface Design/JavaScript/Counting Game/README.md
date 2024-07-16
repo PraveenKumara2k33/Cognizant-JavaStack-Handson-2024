@@ -22,11 +22,14 @@ Note: You may verify the correctness of your function by invoking it from within
 
 (i) Console output for console.log(wordPlay(16));
 Valid
+
 1 2 Tap 4 Clap Tap 7 8 Tap Clap 11 Tap 13 14 Jump 16
 
 (ii) Console Output for console.log(wordPlay(-16));
 Negative
+
 Input falls short of the range
 
 (iii) Console Output for console.log(wordPlay(166));
+
 Input exceeds the range
