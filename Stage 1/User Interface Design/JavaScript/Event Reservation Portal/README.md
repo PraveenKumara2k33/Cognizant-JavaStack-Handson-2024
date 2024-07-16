@@ -23,15 +23,15 @@ When the user selects the event (from a dropdown) for which he/she would like to
 
 | Event    | Ticket List                                            |
 |----------|---------------------------------------------------------|
-| Conference | - "Standard"                                           |
-|           | - "VIP"                                                |
-| Workshop  | - "Beginner"                                           |
-|           | - "Intermediate"                                       |
-|           | - "Advanced"                                           |
-| Seminar   | - "General"                                            |
-|           | - "Student"                                            |
-| Webinar   | - "Free"                                               |
-|           | - "Paid"                                               |
+| Conference | Standard                                           |
+|           | VIP                                                |
+| Workshop  | Beginner                                           |
+|           | Intermediate                                       |
+|           | Advanced                                           |
+| Seminar   | General                                            |
+|           | Student                                            |
+| Webinar   | Free                                               |
+|           | Paid                                               |
 
 
  
@@ -55,10 +55,16 @@ Procedure to complete the exercise: In `script.js`, provide the implementation f
 
 Screenshots
 (i) Plain webpage:
+
 ![alt text](event_ui.jpg)
+
 (ii) On selecting Workshop, the ticket type relevant to workshop is populated:
+
 ![alt text](event_dropdown.jpg)
+
 (iii) On selecting both dropdowns
 ![alt text](event_valid.jpg)
+
 (iv) When either one or both dropdowns are missing
+
 ![alt text](event_invalid.jpg)
