@@ -63,6 +63,7 @@ Screenshots
 ![alt text](event_dropdown.jpg)
 
 (iii) On selecting both dropdowns
+
 ![alt text](event_valid.jpg)
 
 (iv) When either one or both dropdowns are missing
