@@ -23,7 +23,7 @@ Small: 3 points
 
 2. Take input from the user as a single string, separating each field with a colon ( : ).
 
- <participants name>:<participants age>:<big fish>:<medium fish>:<small fish>
+`<participants name>:<participants age>:<big fish>:<medium fish>:<small fish>`
 
 3. Age should be greater than or equal to 18, else print "<age> is an invalid age" and terminate the application.
 
