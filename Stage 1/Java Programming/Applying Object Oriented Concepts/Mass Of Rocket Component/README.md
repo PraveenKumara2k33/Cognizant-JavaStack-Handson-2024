@@ -5,7 +5,7 @@
 
 To work with final variable in classes and objects.
 
-Scenario:
+#### Scenario:
 
 A group of Aerospace Engineers are involved in the work of manufacturing rocket components for KSVL-47 Rocket. After manufacturing each component, they need to check its weight on Earth, calculate its mass, and provide that information to the scientist team. Mass is calculated using the formula, 
 
