@@ -1,7 +1,8 @@
-Lego Builders
-Description
+# Lego Builders
 
-Objective:
+## Description
+
+### Objective:
 
 To work with abstract class.
 
@@ -24,7 +25,7 @@ The application is to calculate the bill amount based on the product type.
 
  
 
-Note: The methods and the constructor should be public, and the attributes of the class should be protected. 
+**Note:** The methods and the constructor should be public, and the attributes of the class should be protected. 
 
 # Component Specification: ElectricalItemDetails Class (Needs to be a child class of the LegoBuilders class)
 
@@ -35,7 +36,7 @@ Note: The methods and the constructor should be public, and the attributes of th
 | ElectricalItemDetails | - `String productName`<br>- `int quantity`<br>- `double price` | - Getters and setters methods for all attributes.<br>- Public constructor: `ElectricalItemDetails(String productId, String productType, String productName, int quantity, double price)`<br>- `public double calculateTotalBill()` | - Include a public 5-argument constructor in the order: `productId`, `productType`, `productName`, `quantity`, and `price`.<br>- Calculate the product's bill amount using the `calculateTotalBill()` method. Return the amount if `productName` includes "wire" or "ElectricalPipe." If not, return 0. Formula: `bill = quantity * price;` Note: `productName` is case insensitive. |
 
 
-Note: The methods and the constructor should be public, and the attributes of the class should be private.
+**Note:** The methods and the constructor should be public, and the attributes of the class should be private.
 
 # Component Specification: PlumbingItemDetails Class (Needs to be a child class of the LegoBuilders class)
 
@@ -46,7 +47,7 @@ Note: The methods and the constructor should be public, and the attributes of th
 | PlumbingItemDetails   | - `String productName`<br>- `int quantity`<br>- `double price` | - Getters and setters methods for all attributes.<br>- Public constructor: `PlumbingItemDetails(String productId, String productType, String productName, int quantity, double price)`<br>- `public double calculateTotalBill()` | - Include a public 5-argument constructor in the order: `productId`, `productType`, `productName`, `quantity`, and `price`.<br>- Calculate the product's bill amount using the `calculateTotalBill()` method. Return the amount if `productName` includes "Tube" or "PlumbingPipe." If not, return 0. Formula: `bill = quantity * price;` Note: `productName` is case insensitive. |
 
 
-Note: The methods and the constructor should be public, and the attributes of the class should be private.
+**Note:** The methods and the constructor should be public, and the attributes of the class should be private.
 
 Use a public class UserInterface with the main method to test the application. In the main method get the details as shown in the sample input.
 
@@ -56,7 +57,7 @@ If the productType is other than `'ElectricalItem' or 'PlumbingItem'` , then the
 
 If the bill amount is '0', then the output should be "Product not available" and terminate the program. Else print the bill amount.
 
-Note :
+**Note:**
 
 -         In the Sample Input / Output provided, the highlighted text in bold corresponds to the input given by the user, and the rest of the text represents the output.
 
