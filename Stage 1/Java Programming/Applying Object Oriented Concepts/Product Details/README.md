@@ -1,13 +1,13 @@
-Product Details
-Description
+# Product Details
+
+## Description
 
 
-
-Objective:
+### Objective:
 
 To work with user defined exception.
 
-Scenario:
+#### Scenario:
 
 Tesco is a 20$ shop in the U.S. that offers shoppers a variety of of products such as footwear, cosmetics, casual dresses, handbags, wallets, toys etc. The idea behind this big box store is to provide consumers with all the goods they require, under one roof with a product price ranging between $1 to $20.
 
