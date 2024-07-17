@@ -1,18 +1,16 @@
-Description
+# Brilliant Restaurant
+## Description
 
-
-
-Objective:
+### Objective:
 
 To work with classes and objects
 
-Scenario:
+#### Scenario:
 
 Brilliant Restaurant is a newly started restaurant. They provide home delivery to customers and planned to automate the bill generation process, based on the type of order. You, being their software consultant, have been approached to develop software to implement the functionality to generate the bill.
 
-Component Specification: Restaurant
+# Component Specification: Restaurant
 
-# Restaurant Class
 
 | Type (Class)  | Attributes          | Methods                                                                 |
 |---------------|---------------------|-------------------------------------------------------------------------|
@@ -20,7 +18,7 @@ Component Specification: Restaurant
 
 
 
-Requirement: Calculate the bill based on the deliveryType.
+**Requirement:** Calculate the bill based on the deliveryType.
 
 # Component Specification:  Restaurant
 
@@ -30,9 +28,9 @@ Requirement: Calculate the bill based on the deliveryType.
 |Calculate the total bill| Restaurant     | `public double calculateTotalBill(double cost)` | Calculates the total bill based on the deliveryType and returns the calculated bill amount. |
 
 
-Note: The class and methods should be declared as public and all the attributes should be declared as private.
+**Note:** The class and methods should be declared as public and all the attributes should be declared as private.
 
-Formula to calculate the bill amount in the Restaurant class:
+**Formula to calculate the bill amount in the Restaurant class:**
 
 `Bill amount = ( Cost * Tax ) + Cost`
 
@@ -44,9 +42,9 @@ Formula to calculate the bill amount in the Restaurant class:
 | NormalOrder    | 0.3  |
 
 
-Note: The deliveryType is case sensitive.
+**Note:** The deliveryType is case sensitive.
 
-Example:
+**Example:**
 
 `Bill amount= [Cost (of a ChickenBurger) * Tax (deliveryType is of NormalOrder) ] + Cost (of a ChickenBurger) `
 
@@ -64,7 +62,7 @@ Display the result as shown in the sample output.
 
  
 
-Note :
+**Note:**
 
 -        In the Sample Input / Output provided, the highlighted text in bold corresponds to the input given by the user, and the rest of the text represents the output.
 
