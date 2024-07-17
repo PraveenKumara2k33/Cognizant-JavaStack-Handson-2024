@@ -1,11 +1,11 @@
-Fitness Tracker
-# Description
+# Fitness Tracker
+## Description
 
-# Objective:
+### Objective:
 
 To work with interface, static method.
 
-Scenario:
+#### Scenario:
 
 ABC Fitness, a leading fitness center, wants to create a software tool to help their clients track their daily fitness activities. The tool should have the capability to monitor metrics such as calories burnt, steps taken, distance covered, and other relevant data. It should also provide insights and recommendations based on the clients' fitness goals and progress. As a software developer, you have been tasked with creating the software tool to meet ABC Fitness's requirements.
 
@@ -16,7 +16,7 @@ ABC Fitness, a leading fitness center, wants to create a software tool to help t
 | UserFitnessData | - `String userName`<br>- `double weight`<br>- `int stepsTaken`<br>- `double distanceCovered`<br>- `boolean runningStatus` | - Appropriate setters and getters are provided as part of the code skeleton.<br>- Constructors:<br>  - No-argument constructor<br>  - Six-argument constructor in the order: `userName`, `weight`, `stepsTaken`, `distanceCovered`, and `runningStatus` to initialize the values for the `UserFitnessData` object. |
 
 
- Note: The class, constructors, and methods should be declared public and all the attributes should be declared private.
+**Note:** The class, constructors, and methods should be declared public and all the attributes should be declared private.
 
 # Component Specification: FitnessMonitor (Interface)
 
@@ -78,7 +78,7 @@ Suppose a user has taken 8000 steps and covered a distance of 5 kilometers in a 
 
 The UserInterface class prompts the user to enter their username, weight, stepsTaken, distanceCovered, and runningStatus. The data is then passed to a UserFitnessData object, which calculates the user's fitness level using the `fndFitnessLevel()` method and the number of calories burnt using the `calculateCaloriesBurnt()` method from the FitnessMonitor interface. The results are then displayed to the user as per in the sample output.
 
-Note:
+**Note:**
 
 - In the Sample Input / Output provided, the highlighted text in bold corresponds to the input given by the user and the rest of the text represents the output.
 - Ensure to follow the object-oriented specifications provided in the question.
