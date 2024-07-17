@@ -56,13 +56,13 @@ ABC Fitness, a leading fitness center, wants to create a software tool to help t
 Suppose a user has taken 8000 steps and covered a distance of 5 kilometers in a day. Their weight is 70 kilograms.
 
 
-## FitnessScore = [(0.1 x 8000) + (1.8 x 5)] / 70
+### FitnessScore = [(0.1 x 8000) + (1.8 x 5)] / 70
 
-FitnessScore = (800 + 9) / 70
+### FitnessScore = (800 + 9) / 70
 
-FitnessScore = 11.557142857142857
+### FitnessScore = 11.557142857142857
 
-Fitness Level = High
+### Fitness Level = High
 
 
 # Requirement 2: Calculate the calories burnt per day.
