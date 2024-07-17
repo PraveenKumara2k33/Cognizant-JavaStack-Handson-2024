@@ -1,16 +1,16 @@
-Array Aggregate
-Description
+# Array Aggregate
+## Description
 
-Objective:
+### Objective:
 
 To work with exception handling.
 
-Scenario:
+#### Scenario:
 
 Write a Java program that calculates the sum of elements in an array based on the input string provided by the user. The input string should be in the format `'arraySize:element1:element2:...' `[i.e. the first element of the input string represents the array size, and the remaining elements are considered as array elements].
 
 
-Requirements:
+**Requirements:**
 
 - The method `"public static String sumOfArrays(String data)"` in the `UserInterface` class parses the input string to extract the array size and elements and performs the validations on the input.
 - If the array size is negative, the `sumOfArrays` method should throw a `NegativeArraySizeException` with the message `"Provide a positive Integer to allocate memory for the array".` 
@@ -21,7 +21,7 @@ Requirements:
 - The `sumOfArrays()` method should return a message indicating the sum of the array and this result should be captured in the main method and printed.
 
 
-`Note:`
+**Note:**
 
 - In the Sample Input / Output provided, the highlighted text in bold corresponds to the input given by the user, and the rest of the text represents the output. 
 - Ensure to follow the object-oriented specifications provided in the question description.
