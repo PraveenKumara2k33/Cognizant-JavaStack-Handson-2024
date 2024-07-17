@@ -1,8 +1,8 @@
-Investment Calculation
+# Investment Calculation
 
-Description
+# Description
 
-Objective:
+## Objective:
 
 To work with classes and objects, static modifier.
 
@@ -28,9 +28,9 @@ The noOfShares should hold only positive integer values. Zero and negative value
 
 Write the following method in the Investment class:
 
-public double calculateTotalAmountOfInvestment(int sharesBought) - This method should check the availability of the shares, If the shares are available, reduce the sharesBought from noOfShares and calculate the total amount of investment as, 
+`public double calculateTotalAmountOfInvestment(int sharesBought)` - This method should check the availability of the shares, If the shares are available, reduce the sharesBought from noOfShares and calculate the total amount of investment as, 
 
-sharesBought * valueOfOneShare (roundoff to one decimal value)
+`sharesBought * valueOfOneShare (roundoff to one decimal value)`
 
 and return the total amount of investment. If the shares are not available, this method should return -1 then display "Shares not available" and terminate the program.
 
@@ -38,7 +38,7 @@ Write a main method in the UserInterface class to test the application.
 
   
 
-SAMPLE INPUT AND OUTPUT 1:
+# SAMPLE INPUT AND OUTPUT 1:
 
 Enter the number of company shares you bought
 
@@ -96,7 +96,7 @@ Remaining Available shares=30
 
  
 
-SAMPLE INPUT AND OUTPUT 2:
+# SAMPLE INPUT AND OUTPUT 2:
 
 Enter the number of company shares you bought
 
