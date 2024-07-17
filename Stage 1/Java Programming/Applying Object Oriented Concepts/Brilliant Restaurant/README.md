@@ -78,7 +78,7 @@ Note :
 
  
 
-Sample Input 1:
+# Sample Input 1:
 
 Enter the Name
 
@@ -106,7 +106,7 @@ Enter the price of the item
 
 
 
-Sample Output 1:
+# Sample Output 1:
 
 Name Alfred
 
@@ -122,7 +122,7 @@ Bill Amount 23.4
 
  
 
-Sample Input 2:
+# Sample Input 2:
 
 Enter the Name
 
@@ -138,6 +138,6 @@ OnlineOrder
 
 
 
-Sample Output 2:
+# Sample Output 2:
 
 Invalid Order Type
