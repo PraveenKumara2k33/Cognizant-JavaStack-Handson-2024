@@ -1,12 +1,12 @@
-Plan Smart
+# Plan Smart
 
-Description
+## Description
 
-Objective:
+### Objective:
 
 To work with abstract class.
 
-Scenario:
+#### Scenario:
 
 In today's fast-paced world, communication plays a vital role in everyone's life. People rely heavily on phone plans to stay connected with their loved ones and the world. With numerous phone plans available on the market, it becomes quite a task to choose the right one that fits an individual's needs and budget. Prepaid and postpaid phone plans are two popular types of plans that cater to the different needs of customers.
 
@@ -24,7 +24,7 @@ As a software consultant, your task is to aid the manager in the process by crea
 | PhonePlan     | - `String providerName`<br>- `String planName`<br>- `String talkTime`<br>- `int data`<br>- `int smsPerDay`<br>- `String planType` | - Getters and setters methods for all attributes.<br>- Public constructor: `PhonePlan(String providerName, String planName, String talkTime, int data, int smsPerDay, String planType)`<br>- `abstract public double findPlanAmount()` | - Include a six-argument constructor in the order: `providerName`, `planName`, `talkTime`, `data`, `smsPerDay`, and `planType`.<br>- Implement the abstract method `abstract public double findPlanAmount()`. |
 
 
-Note: The class should be abstract, the methods and the constructor should be public, whereas the findPlanAmount method should be abstract and public, and the attributes of the class should be protected. 
+**Note:** The class should be abstract, the methods and the constructor should be public, whereas the findPlanAmount method should be abstract and public, and the attributes of the class should be protected. 
 
  
 
@@ -41,7 +41,7 @@ Create concrete subclasses named `PrepaidPlan` and `PostpaidPlan` that inherit t
 | PrepaidPlan   | - `int validity`<br>- `double extraData`                                                               | - Getters and setters methods for all attributes.<br>- Public constructor: `PrepaidPlan(String providerName, String planName, String talkTime, int data, int smsPerDay, String planType, int validity, double extraData)`<br>- `public double findPlanAmount()` | - Include a public eight-argument constructor in the order: `providerName`, `planName`, `talkTime`, `data`, `smsPerDay`, `planType`, `validity`, and `extraData`.<br>- Implement the method `public double findPlanAmount()`. This method should find the plan amount for the `planType` based on the `providerName`, `data`, and `validity`, and return the plan amount. If the `providerName` (or) `data` (or) `validity` is invalid, return -1. Condition: `providerName` is case insensitive. |
 
 
-Note: The methods and the constructor should be public, and the attributes of the class should be private.
+**Note:** The methods and the constructor should be public, and the attributes of the class should be private.
 
 According to the `providerName, data, validity, and cost` are mentioned.
 
@@ -73,7 +73,7 @@ According to the `providerName, data, validity, and cost` are mentioned.
 | PostpaidPlan  | - `String dataCarryOver`<br>- `String subscription`                                                        | - Getters and setters methods for all attributes.<br>- Public constructor: `PostpaidPlan(String providerName, String planName, String talkTime, int data, int smsPerDay, String planType, String dataCarryOver)`<br>- `public double findPlanAmount()` | - Include a public seven-argument constructor in the order: `providerName`, `planName`, `talkTime`, `data`, `smsPerDay`, `planType`, and `dataCarryOver`.<br>- Implement the method `public double findPlanAmount()`. This method should find the plan amount for the `planType` based on the `providerName`, `planName` and set the `subscription` based on the `planName` and return the plan amount. If the `providerName` (or) `planName` is invalid, return -1. Condition: `providerName`, `planName` are case insensitive. |
 
 
-Note: The methods and the constructor should be public, and the attributes of the class should be private.
+**Note:** The methods and the constructor should be public, and the attributes of the class should be private.
 
 According to the `providerName and the planName` , the subscription and the cost are mentioned.
 
@@ -101,7 +101,7 @@ Use a `public class UserInterface` with the main method to test the application.
 
 
 
-Note:
+**Note:**
 
 - In the sample input and output provided, the highlighted text in bold corresponds to the input given by the user, and the rest of the text represents the output.
 - Ensure to follow the object-oriented specifications provided in the question.
