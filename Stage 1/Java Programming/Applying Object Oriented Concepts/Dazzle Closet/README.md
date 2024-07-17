@@ -1,11 +1,11 @@
 Dazzle Closet
-Description
+# Description
 
-Objective:
+# Objective:
 
 To work with constructor, classes and objects.
 
-Scenario:
+# Scenario:
 
 Sarah, a fashion lover, opened Dazzle Closet, a shop for everyone. With unique clothes and personal attention, she made it a cozy place to find the perfect outfit. She sought the expertise of a software developer to create a user-friendly application to calculate prices according to size preferences. As a software developer, help her automate the process.
 
@@ -17,7 +17,7 @@ Sarah, a fashion lover, opened Dazzle Closet, a shop for everyone. With unique c
 Note: The methods and the constructor should be public, and the attributes of the class should be private. 
 
 
-Assumptions:
+# Assumptions:
 
 Assume most of the customers opt for XL size. So, keep the size as "XL" by default. But customers can give input for their preferred size also.
 
@@ -34,7 +34,7 @@ Adhere to the code template, if provided
 Please do not use System.exit(0); to terminate the program.
 
 
-Sample Input/Output 1:
+# Sample Input/Output 1:
 
 Enter dress code
 
@@ -68,7 +68,7 @@ Price :599.0
 
  
 
-Sample Input /Output 2:
+# Sample Input /Output 2:
 
 Enter dress code
 
