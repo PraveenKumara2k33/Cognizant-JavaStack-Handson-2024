@@ -10,23 +10,23 @@ Scenario:
 
 Create a class Investment with the following private variables:
 
-int companyId
+      int companyId
 
-String companyName
+      String companyName
 
-static int noOfShares
+      static int noOfShares
 
-double valueOfOneShare
-
- 
-
-Include getters and setters methods in the Investment class. (Getters and Setters names should be similar to attribute name)
-
-The noOfShares should hold only positive integer values. Zero and negative values are not allowed. (This logic should be checked inside the corresponding setter method)
+      double valueOfOneShare
 
  
 
-Write the following method in the Investment class:
+`Include getters and setters methods in the Investment class. (Getters and Setters names should be similar to attribute name)`
+
+The `noOfShares` should hold only positive integer values. Zero and negative values are not allowed. `(This logic should be checked inside the corresponding setter method)`
+
+ 
+
+**Write the following method in the Investment class:**
 
 `public double calculateTotalAmountOfInvestment(int sharesBought)` - This method should check the availability of the shares, If the shares are available, reduce the sharesBought from noOfShares and calculate the total amount of investment as, 
 
