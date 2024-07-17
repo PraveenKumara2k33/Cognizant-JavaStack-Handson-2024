@@ -1,14 +1,14 @@
-Mythic Rhythms
+# Mythic Rhythms
 
 
-Description
+## Description
 
-Objective:
+### Objective:
 
 
 To work with abstract class.
 
-Scenario:
+#### Scenario:
 
 As an entrepreneur, you've always wanted to follow your ambition of opening a musical instrument business. In today's e-commerce-dominated world, you want to create an e-commerce application for your beloved. At the start of your firm, you plan to sell just string instruments, especially guitars.
 
@@ -40,7 +40,7 @@ Uncomment the public getters and setters provided in the template.
 
 Write a public five-argument constructor with arguments - instrumentId, instrumentName, instrumentType, price and customerObj.
 
- Make `public double calculateTotalBill()` method as `abstract in MusicalInstrument class`.
+Make `public double calculateTotalBill()` method as `abstract in MusicalInstrument class`.
 
 Write a `public class StringInstrument` with the following private attribute: 
 
@@ -77,15 +77,15 @@ the value after discount is calculated as follows:
 
 Create a public class UserInterface which has the main method.  Check the correctness of the methods written in these classes.
 
-Note: 
+**Note:**
 
 `All class, methods need to be declared as public.`
 
-**In the Sample Input / Output provided, the highlighted text in bold corresponds to the input given by the user, and the rest of the text represents the output. 
-Ensure to follow the object-oriented specifications provided in the question description. 
-Ensure to provide the names for classes, attributes, and methods as specified in the question description. 
-Adhere to the code template, if provided 
-Please do not use System.exit(0); to terminate the program.**
+- In the Sample Input / Output provided, the highlighted text in bold corresponds to the input given by the user, and the rest of the text represents the output. 
+- Ensure to follow the object-oriented specifications provided in the question description. 
+- Ensure to provide the names for classes, attributes, and methods as specified in the question description. 
+- Adhere to the code template, if provided 
+- Please do not use System.exit(0); to terminate the program.
 
 
 # Sample Input / Output 1
