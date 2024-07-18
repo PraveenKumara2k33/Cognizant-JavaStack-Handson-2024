@@ -1,16 +1,12 @@
-Description
+# Jasper Sports Academy
+## Description
 
 
-
-Jasper Sports Academy
-
-
-
-Objective:
+### Objective:
 
 To work with HTML5 Form Elements.
 
-Problem Description:
+#### Problem Description:
 
 Jasper Sports Academy is a recently started sports academy in the city. They would like to design the web page for their academy to register online for the new enrollments and the offers provided to attract the people.Help them in designing a web page towards the same, referring to the screenshot given below.
 
@@ -48,10 +44,10 @@ Design the web page "JASPER SPORTS ACADEMY" with specified fields and the constr
 
 
 
-NOTE: The text highlighted in bold in the Description needs to be implemented in the code to complete the web page design.
+**NOTE: The text highlighted in bold in the Description needs to be implemented in the code to complete the web page design.**
 
-IMPORTANT constraints on components:
-1. Every table row has 2 table data except "Player Registration Details" & "the last table data" containing a statement on discount - whose tds span across 2 columns.
+#### IMPORTANT constraints on components:
+1. Every table row has 2 table data except `"Player Registration Details" & "the last table data"` containing a statement on discount - whose tds span across 2 columns.
 2. Apply class : 'title'(given) to table data (td) containing : Player Registration Details, Sports (with duration) & Sports Fee.
 3. Partially filled table row pertaining to Sports (with duration) & Sports Fee is given in the template.
 
