@@ -1,27 +1,27 @@
-Date Format
+# Date Format
 
-Description
+## Description
 
-Objective:
+### Objective:
 
 To work with joins and scalar functions.
 
-Description:
+#### Description:
 
-Write a query to display the user name, borrowing id and borrow_date of all the books. 
+Write a query to display the `user name, borrowing id and borrow_date` of all the books. 
 
-Give an alias name for borrow_date as borrowed_date.
+Give an alias name for `borrow_date as borrowed_date`.
 
-Sort the results based on the borrowing id in descending order.
+Sort the results based on the `borrowing id in descending order`.
 
 The borrowed_date should be in the following format:.
 
-Eg: MonthName,Year
+# Eg: MonthName,Year
 
       April,2016
 
 
-Sample Output:
+# Sample Output:
 
 | username | borrowing_id | borrowed_date |
 |----------|--------------|---------------|
