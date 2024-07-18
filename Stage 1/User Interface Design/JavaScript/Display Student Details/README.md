@@ -1,12 +1,11 @@
-Description
+# Display Student Details
+## Description
 
-Display Student Details
-
-Objective:
+### Objective:
 
 To work with JavaScript functions, constructors, classes, and objects.
 
-Problem Description:
+#### Problem Description:
 
 Write a JavaScript program to display the Student details. 
 Student class 
@@ -32,6 +31,7 @@ Create an all-argument constructor to initialize the student class attributes an
 | `createStudent(studentId, studentName, yearOfPassing, department)`        | This function creates an object representing a student using `studentId`, `studentName`, `yearOfPassing`, and `department` as arguments. It returns the created object.          |
 
 
-Note: You may verify the correctness of your function by invoking it within console.log.
-Console output screen for console.log(displayStudentDetails("Jpr/123/2018", "John Doe", 2022, "Mechanical"));
+**Note: You may verify the correctness of your function by invoking it within console.log.**
+
+**Console output screen for console.log(displayStudentDetails("Jpr/123/2018", "John Doe", 2022, "Mechanical"));**
 
