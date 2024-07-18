@@ -1,19 +1,19 @@
-NewBerry Library
+# NewBerry Library
 
-Description
+## Description
 
-NewBerry Library
-
- Objective:
+### Objective:
 
 To work with HTML5 Semantic Tags.
 
-Problem Description:
+#### Problem Description:
 
 One of the well-known libraries is the NewBerry Library. They have made the decision to build a website where they would advertise the notable books they have in their library.Aid them in developing a site.
  
 ![alt text](NewBerrylibrarySS1.png)
-Create elements AS PER THE ORDER specified in the table given below:
+
+**Create elements AS PER THE ORDER specified in the table given below:**
+
 | Element Id   | Description                                                                                              |
 |--------------|----------------------------------------------------------------------------------------------------------|
 | head         | Create a HEADER element for the page using the header tag with the given id. The header should contain the navigation tag inside it. |
