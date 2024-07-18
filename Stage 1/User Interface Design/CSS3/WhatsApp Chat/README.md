@@ -1,12 +1,12 @@
-Description
+# WhatsApp Chat 
 
-WhatsApp Chat 
+## Description
 
-Objective:
+### Objective:
 
 To work with CSS Selectors, Combinators, Responsive Web Design(RWD), and Flexbox.
 
-Problem Description:
+#### Problem Description:
 Apply styles to the web page with a WhatsApp Chat Window, that has already been created for you,
 adhering to the requirements specified.  
 
