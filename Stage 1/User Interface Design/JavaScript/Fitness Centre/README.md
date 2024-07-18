@@ -1,42 +1,29 @@
-Description
+# Fitness Centre
+## Description
 
-
-
-
-
-
-
-
-
-
-
-
-
-Fitness Centre
-
-Objective:
+### Objective:
 
 To work with object creation, manipulation of arrays, and DOM elements.
 
-Problem Description:
+#### Problem Description:
 
 Muscle Magic is a popular fitness centre. In order to track client data, they created an HTML page. They require Javascript methods to do that in order to store customer data in an array. As a software consultant, help them to preserve their customer detail using Javascript
 
 You are given with a web page that contains
 
-Text box with name as input
-Text box with email as input
-3 number boxes with age, height, and weight as inputs
+- Text box with name as input
+- Text box with email as input
+- 3 number boxes with age, height, and weight as inputs
 These are provided in the template. Use your JavaScript skills to print the result.
 
-Following are the files that contain code snippets:
+**Following are the files that contain code snippets:**
 
-index.html - HTML for webpage (complete implementation is given). You only have to run this. No change needs to be done to this file
-script.js - Add your code to this file for the functions given. 
+`index.html` - HTML for webpage (complete implementation is given). You only have to run this. No change needs to be done to this file
+`script.js` - Add your code to this file for the functions given. 
 
-Procedure to complete the exercise: The required function headers are already available in the JavaScript file - script.js. DO NOT change the function names. Fill the following functions with the required code.
+`Procedure to complete the exercise`: The required function headers are already available in the JavaScript file - script.js. DO NOT change the function names. Fill the following functions with the required code.
 
-Note : In order to obtain multiple inputs, declare the array globally.
+**Note : In order to obtain multiple inputs, declare the array globally.**
 
 | Function          | Description                                                                                             | Steps                                                                                                                             |
 |-------------------|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
@@ -51,11 +38,11 @@ Note : In order to obtain multiple inputs, declare the array globally.
 |                   |                                                                                                         | 2. Return `obj_array`.                                                                                                           |
 
 
-Screenshot :
+**Screenshot :**
 
 ![Muscle Music](hand_on.jpg)
 
-Note: 
+**Note:**
 
 In JavaScript, use getElementById() to retrieve the values of the HTML components.
 
