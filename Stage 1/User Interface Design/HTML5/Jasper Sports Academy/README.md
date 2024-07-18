@@ -12,14 +12,14 @@ Jasper Sports Academy is a recently started sports academy in the city. They wou
 
 Use the Label Name and the element Id as given. All the necessary attributes for the element should be given. The element Id should be specified for each HTML element. All Tags, Elements and Attributes should conform to HTML5 standards.
 
-Front page:
+**Front page:**
 ![alt text](jasperSS!.png)
 
-timing.html page while clicking schedule:
+**timing.html page while clicking schedule:**
 ![alt text](japserSS2.png)
 
 
-Design the web page "JASPER SPORTS ACADEMY" with specified fields and the constraints specified in the table below:
+**Design the web page "JASPER SPORTS ACADEMY" with specified fields and the constraints specified in the table below:**
 
 | Label Name                | Element Id (Specify it for the "id" attribute) | Description                                                                                                     |
 |---------------------------|-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -48,7 +48,7 @@ Design the web page "JASPER SPORTS ACADEMY" with specified fields and the constr
 
 #### IMPORTANT constraints on components:
 1. Every table row has 2 table data except `"Player Registration Details" & "the last table data"` containing a statement on discount - whose tds span across 2 columns.
-2. Apply class : 'title'(given) to table data (td) containing : Player Registration Details, Sports (with duration) & Sports Fee.
-3. Partially filled table row pertaining to Sports (with duration) & Sports Fee is given in the template.
+2. Apply class : 'title'(given) to table data (td) containing : `Player Registration Details, Sports (with duration) & Sports Fee`.
+3. Partially filled table row pertaining to `Sports (with duration) & Sports Fee` is given in the template.
 
  
