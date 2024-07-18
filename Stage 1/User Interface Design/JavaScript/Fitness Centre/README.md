@@ -44,6 +44,6 @@ These are provided in the template. Use your JavaScript skills to print the resu
 
 **Note:**
 
-In JavaScript, use getElementById() to retrieve the values of the HTML components.
+In JavaScript, use `getElementById()` to retrieve the values of the HTML components.
 
 Do not use jQuery (or) ES6 features. 
