@@ -14,6 +14,8 @@ Write a query to display the `user id, user name, and updated_email` for all the
 If the `address is 'Boston'` then `change the email domain to 'gmail.com'`.
 `Otherwise`, display the `email`.
 Sort the results based on the `user id in descending order`.
+
+
 **(Note:  Data is case sensitive.)**
  
 # Sample Data:
