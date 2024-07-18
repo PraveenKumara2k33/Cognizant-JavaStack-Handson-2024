@@ -1,22 +1,22 @@
-Updated Email
+# Updated Email
 
-Description
+## Description
 
-Objective:
+### Objective:
 
 To work with the scalar functions.
 
-Description:
+#### Description:
 
 Users from the address 'Boston' have changed their email domain to 'gmail.com'.
-Write a query to display the user id, user name, and updated_email for all the customers. Give an alias name as 'updated_email' for all the customers.
+Write a query to display the `user id, user name, and updated_email` for all the customers. Give an `alias name as 'updated_email'` for all the customers.
  
-If the address is 'Boston' then change the email domain to 'gmail.com'.
-Otherwise, display the email.
-Sort the results based on the user id in descending order.
-(Note:  Data is case sensitive.)
+If the `address is 'Boston'` then `change the email domain to 'gmail.com'`.
+`Otherwise`, display the `email`.
+Sort the results based on the `user id in descending order`.
+**(Note:  Data is case sensitive.)**
  
-Sample Data:
+# Sample Data:
 
 | user_id | username | email                | address |
 |---------|----------|----------------------|---------|
@@ -25,7 +25,7 @@ Sample Data:
 | C726    | Stokes   | stokes@hotmail.com   | Chicago |
 
  
-Sample Output:
+# Sample Output:
 
 | user_id | username | updated_email       |
 |---------|----------|---------------------|
